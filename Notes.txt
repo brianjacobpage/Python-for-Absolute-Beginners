@@ -1,0 +1,15 @@
+How to list the methods in a class
+--------------------------------------------------------
+
+you can print all methods of a class with "print(dir(class_instance's_name")
+IE print(dir(myTuple))
+in the above example "myTuple" is a varible that is type Tuple
+you can also simply call the class type, as in the following example we pass the generic "list" class
+IE print(dir(list))
+
+How to find the class type
+--------------------------------------------------------
+
+Use type to determine the object's class type
+IE type(myList) where myList is a defined list object
+helpful in debugging
