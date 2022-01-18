@@ -13,3 +13,14 @@ How to find the class type
 Use type to determine the object's class type
 IE type(myList) where myList is a defined list object
 helpful in debugging
+
+How to find object ID
+--------------------------------------------------------
+
+id(object_name)
+
+Truncate a number
+--------------------------------------------------------
+
+Double slash // will drop all trailing decimals in a float and return only the full integer
+IE 21//2 returns 10 of type int
