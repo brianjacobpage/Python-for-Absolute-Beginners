@@ -1,26 +1,33 @@
 How to list the methods in a class
 --------------------------------------------------------
-
 you can print all methods of a class with "print(dir(class_instance's_name")
 IE print(dir(myTuple))
 in the above example "myTuple" is a varible that is type Tuple
 you can also simply call the class type, as in the following example we pass the generic "list" class
 IE print(dir(list))
 
+How to get help on methods within a module
+--------------------------------------------------------
+>>> import random
+>>> dir(random)
+['BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST', 'SystemRandom', 'TWOPI', '_ONE', '_Sequence', '_Set', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_accumulate', '_acos', '_bisect', '_ceil', '_cos', '_e', '_exp', '_floor', '_index', '_inst', '_isfinite', '_log', '_os', '_pi', '_random', '_repeat', '_sha512', '_sin', '_sqrt', '_test', '_test_generator', '_urandom', '_warn', 'betavariate', 'choice', 'choices', 'expovariate', 'gammavariate', 'gauss', 'getrandbits', 'getstate', 'lognormvariate', 'normalvariate', 'paretovariate', 'randbytes', 'randint', 'random', 'randrange', 'sample', 'seed', 'setstate', 'shuffle', 'triangular', 'uniform', 'vonmisesvariate', 'weibullvariate']
+>>> help(random.randint)
+Help on method randint in module random:
+
+randint(a, b) method of random.Random instance
+    Return random integer in range [a, b], including both end points.
+
 How to find the class type
 --------------------------------------------------------
-
 Use type to determine the object's class type
 IE type(myList) where myList is a defined list object
 helpful in debugging
 
 How to find object ID
 --------------------------------------------------------
-
 id(object_name)
 
 Truncate a number
 --------------------------------------------------------
-
 Double slash // will drop all trailing decimals in a float and return only the full integer
 IE 21//2 returns 10 of type int
