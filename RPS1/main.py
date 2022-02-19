@@ -1,5 +1,5 @@
 import random
-#lalalalalalalalalalalalala hehehe
+#lalalalalalalalalalalala hehehe
 
 def to_string(hand: str) -> str:
     if hand == "r":
